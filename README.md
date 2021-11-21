@@ -17,8 +17,6 @@ Ryan P.C. McQuen (2015) concludes map() is faster than forEach() or for().
 
 Note: JSLint excludes the use  of the for() statement (Crockford 2017).
 
-Logical consistency arguable differences, 
-
 See [`js-create-elements.js`](js-create-elements.js).
 
 ## How to use jsExam_ForEach_vs_Map_vs_While
