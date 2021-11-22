@@ -19,9 +19,9 @@ See [`create-elements.js`](create-elements.js).
 
 ## How to use jsExam_ForEach_vs_Map_vs_While
 
-See the [`create-elements`][0] code.
+See the [`create-elements`][0] HTML code.
 
-[0]: https://github.com/Project4Dimensions/project4dimensions.github.io/create-elements-en.html
+[0]: https://github.com/Project4Dimensions/project4dimensions.github.io/js-examples/create-elements-en.html
 
 ## Demonstration
 
