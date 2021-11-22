@@ -1,4 +1,4 @@
-# jsExam_forEach() vs map() vs while()
+# jsExam forEach() vs map() vs while()
 
 ## Why jsExam_forEach() vs map() vs while()?
 
