@@ -1,33 +1,33 @@
-# jsExam_ForEach_vs_Map_vs_While
+# jsExam_forEach() vs map() vs while()
 
-Research and development: Project4Dimensions
+## Why jsExam_forEach() vs map() vs while()?
 
-## Why jsExam_ForEach_vs_Map_vs_While?
+jsExam_forEach() vs map() vs while() analyses the use of two built-in 
+object constructors, forEach() and map(), and the while() statement.
+One function uses forEach(), another, map(), and a third, while().
+Buttons generate invokde the functions to generate identical HTML
+elements, but there is no discernible difference in speed.
 
-jsExam_ForEach_vs_Map_vs_While analyses the use of two built-in 
-object constructors, forEach() and map(), and the while() statement. 
-
-These functions are used to generate identical HTML elements. 
-There is no discernible difference in speed.
-
-Some tests show while() is slightly faster than for() (jsPerf 2015; 
-Popov 2012), but another indicates for() is faster than while(), 
-closely followed by forEach() and map() (jsPerf 2013). More recently, 
-Ryan P.C. McQuen (2015) concludes map() is faster than forEach() or for().
+Tests show while() is slightly faster than for() (jsPerf 2015; Popov
+2012), but another indicates for() is faster than while(), closely
+followed by forEach() and map() (jsPerf 2013). Ryan P.C. McQuen (2015)
+concludes map() is faster than forEach() or for().
 
 Note: JSLint excludes the use  of the for() statement (Crockford 2017).
 
-See [`js-create-elements.js`](js-create-elements.js).
+See [`create-elements.js`](create-elements.js).
 
 ## How to use jsExam_ForEach_vs_Map_vs_While
 
-See the example in [`docs`](docs).
+See the [`create-elements`][0] code.
+
+[0]: https://github.com/Project4Dimensions/project4dimensions.github.io/create-elements-en.html
 
 ## Demonstration
 
-[`http://project4dimensions.github.io/jsExam_ForEach_vs_Map_vs_While/`][1]
+[`http://project4dimensions.github.io/create-elements-en.html`][1]
 
-[1]: http://project4dimensions.github.io/jsExam_ForEach_vs_Map_vs_While/
+[1]: http://project4dimensions.github.io/create-elements-en.html
 
 ## References
 

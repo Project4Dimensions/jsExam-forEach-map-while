@@ -14,7 +14,7 @@ function objectForEach(obj) {
     Object.keys(obj).forEach(function (key) {
         b = document.createElement("li");
         ba = document.createElement("a");
-        ba.setAttribute("href", "index-" + key + ".html");
+        ba.setAttribute("href", "create-elements-" + key + ".html");
         ba.appendChild(document.createTextNode(obj[key]));
         b.appendChild(ba);
         a.appendChild(b);
@@ -29,7 +29,7 @@ function objectMap(obj) {
     Object.keys(obj).map(function (key) {
         b = document.createElement("li");
         ba = document.createElement("a");
-        ba.setAttribute("href", "index-" + key + ".html");
+        ba.setAttribute("href", "create-elements-" + key + ".html");
         ba.appendChild(document.createTextNode(obj[key]));
         b.appendChild(ba);
         a.appendChild(b);
@@ -46,7 +46,7 @@ function objectWhile(obj) {
     while (i < b.length) {
         c = document.createElement("li");
         ca = document.createElement("a");
-        ca.setAttribute("href", "index-" + b[i] + ".html");
+        ca.setAttribute("href", "create-elements-" + b[i] + ".html");
         ca.appendChild(document.createTextNode(obj[b[i]]));
         c.appendChild(ca);
         a.appendChild(c);
