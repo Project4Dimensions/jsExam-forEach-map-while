@@ -25,9 +25,9 @@ See the [`create-elements`][0] HTML code.
 
 ## Demonstration
 
-[`http://project4dimensions.github.io/create-elements-en.html`][1]
+[`http://project4dimensions.github.io/js-examples/create-elements-en.html`][1]
 
-[1]: http://project4dimensions.github.io/create-elements-en.html
+[1]: http://project4dimensions.github.io/js-examples/create-elements-en.html
 
 ## References
 
