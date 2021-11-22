@@ -5,8 +5,8 @@
 jsExam_forEach() vs map() vs while() analyses the use of two built-in 
 object constructors, forEach() and map(), and the while() statement.
 One function uses forEach(), another, map(), and a third, while().
-Buttons generate invokde the functions to generate identical HTML
-elements, but there is no discernible difference in speed.
+Buttons invoke the functions to generate identical HTML elements, but
+there is no discernible difference in speed.
 
 Tests show while() is slightly faster than for() (jsPerf 2015; Popov
 2012), but another indicates for() is faster than while(), closely
